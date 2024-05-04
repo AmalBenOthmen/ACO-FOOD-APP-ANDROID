@@ -70,7 +70,7 @@
             app:iconSize="30dp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/SignWithPhone"
             android:layout_width="235dp"
             android:layout_height="73dp"
             android:layout_marginLeft="80dp"
