@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -40,4 +42,19 @@ public class MainActivity extends AppCompatActivity {
 
         }
     });
-}}
+ //this code delays the start of the MainMenu activity for 3 seconds after launching the MainActivity
+        //  then finishes MainActivity once the MainMenu activity has been started.
+        new Handler().postDelayed(new Runnable() { //creation of instance handler //postDelayed() method to schedule the execution of a delayed task after a certain delay.
+            @Override
+            public void run() {
+
+                Intent intent = new Intent(MainActivity.this,MainMenu.class);//the actually activity is MainActivity and the destination is Main Menu
+                startActivity(intent);
+                finish();
+
+            }
+        },3000);
+
+    }
+
+}

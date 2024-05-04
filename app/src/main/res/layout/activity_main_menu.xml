@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_shape"
+    tools:context=".MainMenu">
+
+    <ImageView
+        android:id="@+id/background_shape1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/btngreen"
+        android:scaleType="fitXY"
+        android:src="@drawable/background_shape1"
+        android:textAlignment="center"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="385dp"
+        android:layout_height="529dp"
+        android:layout_marginStart="104dp"
+        android:background="@drawable/background_shape"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.528">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/acofood1" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:padding="20dp"
+            android:text="Good Food, Good Mood"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/SignWithEmail"
+            android:layout_width="235dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/btngreen"
+            android:drawableLeft="@drawable/logoemail"
+
+
+            android:foreground="@android:color/transparent"
+            android:gravity="center|center_vertical"
+            android:insetTop="4dp"
+            android:text="Sign With Email"
+            android:textAlignment="center"
+            android:textColor="#302F2F"
+            android:textSize="20dp"
+            app:backgroundTint="@color/green"
+            app:iconSize="30dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="235dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btnorange"
+            android:drawableLeft="@drawable/logophone"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:text="Sign With Phone"
+            android:textAlignment="center"
+            android:textColor="#2E2D2D"
+            android:textSize="20sp"
+            app:backgroundTint="@color/orange" />
+
+        <LinearLayout
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center|center_horizontal"
+            android:orientation="horizontal">
+
+            <TableRow
+                android:id="@+id/hr1"
+                android:layout_width="150dp"
+                android:layout_height="3dp"
+                android:background="#393737">
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/OR"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:text="OR"
+                android:textSize="17dp" />
+
+            <TableRow
+                android:id="@+id/hr2"
+                android:layout_width="150dp"
+                android:layout_height="3dp"
+                android:background="#393737" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Signup"
+            android:layout_width="220dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btngray"
+            android:gravity="center"
+            android:scrollbarThumbHorizontal="@drawable/btngray"
+            android:scrollbarThumbVertical="@drawable/btngray"
+            android:text="SIgnUp"
+            android:textColor="#2E2D2D"
+            android:textColorHighlight="@color/gray"
+            android:textColorLink="@color/gray"
+            android:textCursorDrawable="@drawable/btngray"
+            android:textSize="20sp"
+            app:backgroundTint="@color/gray" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
