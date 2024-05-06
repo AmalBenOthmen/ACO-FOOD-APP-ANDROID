@@ -2,6 +2,7 @@ package com.example.acofoodapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import android.os.Bundle;
 
 public class ChefRegistration extends AppCompatActivity {
@@ -10,5 +11,6 @@ public class ChefRegistration extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chef_registration);
-    }
-}
+
+
+}}
