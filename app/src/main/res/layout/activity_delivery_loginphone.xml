@@ -4,6 +4,125 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/img20"
     tools:context=".Delivery_Loginphone">
+    <LinearLayout
+        android:id="@+id/linearlayoutD"
+        android:layout_width="350dp"
+        android:layout_height="448dp"
+        android:background="@drawable/background_shape"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="05dp"
+            android:text="Verify Phone Number"
+            android:textColor="#090909"
+            android:textSize="24sp" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/verifPhoneD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Enter your phone number "
+                android:inputType="phone" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/sendD"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/background_shape1"
+            android:text="Send"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:backgroundTint="#BA7E26" />
+
+        <TextView
+            android:id="@+id/signupD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text="Don't Have An Account? SignUp"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TableRow
+                android:id="@+id/hrD"
+                android:layout_width="107dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/Black" />
+
+            <TextView
+                android:id="@+id/ORD"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:text="OR"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textSize="16sp" />
+
+            <TableRow
+                android:id="@+id/drD"
+                android:layout_width="107dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/Black" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/signphoneD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="SignIn With"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnEmailD"
+            android:layout_width="119dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btnorange"
+
+            android:drawableLeft="@drawable/emailwhite"
+            android:padding="10dp"
+            android:text="Email"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:backgroundTint="#BA7E26" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
