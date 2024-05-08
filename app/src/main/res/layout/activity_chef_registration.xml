@@ -8,15 +8,18 @@
     tools:context=".ChefRegistration">
 
     <ScrollView
-        android:layout_width="298dp"
-        android:layout_height="464dp"
+        android:layout_width="338dp"
+        android:layout_height="612dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
         android:background="@drawable/background_shape"
+        android:orientation="vertical"
+        android:padding="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498">
+        app:layout_constraintVertical_bias="0.436">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -24,30 +27,30 @@
             android:orientation="vertical">
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/FirstName"
+                android:id="@+id/FirstNameChef"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp">
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/TextInputEditText"
+            <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="270dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginLeft="05dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginRight="5dp"
-                    android:gravity="left"
+
                     android:hint="FirstName"
                     android:inputType="text"
-                    android:textAlignment="viewStart"
                     android:textStyle="bold|italic" />
+
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/LastName"
+                android:id="@+id/LastnameChef"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="270dp"
@@ -59,9 +62,10 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/Email"
+                android:id="@+id/EmailChef"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="270dp"
@@ -73,45 +77,11 @@
                     android:inputType="text|textEmailAddress"
                     android:textStyle="bold|italic" />
             </com.google.android.material.textfield.TextInputLayout>
-
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/Password"
+                android:id="@+id/PhoneChef"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:passwordToggleEnabled="true">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="270dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:hint="Password"
-                    android:inputType="text|textPassword"
-                    android:password="false"
-                    android:textStyle="bold|italic" />
-
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/ConfirmPassword"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:passwordToggleEnabled="true">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="270dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:hint="ConfirmPassword"
-                    android:inputType="text|textPassword"
-                    android:password="false"
-                    android:textStyle="bold|italic" />
-
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/PHone"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="270dp"
@@ -123,8 +93,43 @@
                     android:textStyle="bold|italic" />
             </com.google.android.material.textfield.TextInputLayout>
 
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/PasswordChef"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="Password"
+                    android:inputType="text|textPassword"
+                    android:password="false"
+                    android:textStyle="bold|italic" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ConfirmpasswdChef"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="ConfirmPassword"
+                    android:inputType="text|textPassword"
+                    android:password="false"
+                    android:textStyle="bold|italic" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
             <Button
-                android:id="@+id/signup"
+                android:id="@+id/btnSignupChef"
                 android:layout_width="200dp"
                 android:layout_height="48dp"
                 android:layout_gravity="center"
@@ -140,54 +145,55 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
                 <TableRow
-                    android:id="@+id/hr3"
+                    android:id="@+id/hr"
                     android:layout_width="105dp"
                     android:layout_height="1dp"
                     android:layout_marginTop="20dp"
-                    android:background="#393737" />
+                    android:background="#595858" />
 
                 <TextView
-                    android:id="@+id/OR1"
+                    android:id="@+id/OR"
                     android:layout_width="44dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="09dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="7dp"
                     android:layout_weight="1"
-                    android:gravity="center"
                     android:text="OR"
-                    android:textSize="17dp"
-                    android:textStyle="bold|italic" />
+                    android:textAlignment="center"
+                    android:textColor="#040404"
+                    android:textSize="17sp" />
 
                 <TableRow
-                    android:id="@+id/hr4"
+                    android:id="@+id/dr"
                     android:layout_width="105dp"
                     android:layout_height="1dp"
                     android:layout_marginTop="20dp"
-                    android:background="#393737" />
+                    android:background="#595858" />
             </LinearLayout>
 
             <TextView
-                android:id="@+id/SignIn"
+                android:id="@+id/tvv"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:gravity="center"
-                android:text="SignIn With"
-                android:textStyle="bold|italic" />
+                android:layout_marginTop="15dp"
+                android:text="SignIn with"
+                android:textAlignment="center"
+                android:textColor="#0C0C0C"
+                android:textSize="18sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="15dp"
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/Email1"
+                    android:id="@+id/btnemailChef"
                     android:layout_width="95dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="5dp"
@@ -203,7 +209,7 @@
                     tools:ignore="TextSizeCheck,TouchTargetSizeCheck" />
 
                 <Button
-                    android:id="@+id/Phone1"
+                    android:id="@+id/btnphoneChef"
                     android:layout_width="105dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -220,10 +226,9 @@
                     tools:ignore="TextSizeCheck,TouchTargetSizeCheck" />
             </LinearLayout>
 
-
         </LinearLayout>
-
     </ScrollView>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
