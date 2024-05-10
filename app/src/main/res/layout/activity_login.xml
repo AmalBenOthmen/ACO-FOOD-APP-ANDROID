@@ -25,7 +25,7 @@
         app:layout_constraintVertical_bias="0.651">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/Lemailm"
+            android:id="@+id/Lemailc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -42,7 +42,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/Lpasswordm"
+            android:id="@+id/Lpasswordc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="11dp"
@@ -58,7 +58,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
-            android:id="@+id/forgotpassm"
+            android:id="@+id/forgotpassc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"
@@ -67,7 +67,7 @@
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/button44"
+            android:id="@+id/button4c"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginTop="20dp"
@@ -78,7 +78,7 @@
             app:backgroundTint="#FF5722" />
 
         <TextView
-            android:id="@+id/textView3m"
+            android:id="@+id/textView3c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -95,7 +95,7 @@
             android:orientation="horizontal">
 
             <TableRow
-                android:id="@+id/hrm"
+                android:id="@+id/hrc"
                 android:layout_width="103dp"
                 android:layout_height="1dp"
                 android:layout_marginTop="20dp"
@@ -119,7 +119,7 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/signphonem"
+            android:id="@+id/signphonec"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -130,7 +130,7 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btnphonem"
+            android:id="@+id/btnphonec"
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_gravity="center"

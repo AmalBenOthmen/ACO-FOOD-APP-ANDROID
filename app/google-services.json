@@ -1,13 +1,14 @@
 {
   "project_info": {
-    "project_number": "900032420845",
-    "project_id": "aco-food-app",
-    "storage_bucket": "aco-food-app.appspot.com"
+    "project_number": "158740984246",
+    "firebase_url": "https://aco-food-app-bb3d9-default-rtdb.firebaseio.com",
+    "project_id": "aco-food-app-bb3d9",
+    "storage_bucket": "aco-food-app-bb3d9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:900032420845:android:63e00297fb9826715225e4",
+        "mobilesdk_app_id": "1:158740984246:android:51e0f624c7399ebedf5117",
         "android_client_info": {
           "package_name": "com.example.acofoodapp"
         }
@@ -15,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAiqWWbNPY3klj1ULvSGiJLR_kudGUZnUM"
+          "current_key": "AIzaSyDIm9O3boBErRJHYVlh3RFkr2aATkELHUM"
         }
       ],
       "services": {

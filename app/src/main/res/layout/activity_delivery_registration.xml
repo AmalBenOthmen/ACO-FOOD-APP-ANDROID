@@ -23,7 +23,7 @@
             android:orientation="vertical">
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/FNameD"
+                android:id="@+id/FirstNameDelevery"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp">
@@ -43,7 +43,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/LNameD"
+                android:id="@+id/LastNameDelevery"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
@@ -57,7 +57,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/emailD"
+                android:id="@+id/emailDelevery"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
@@ -73,7 +73,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/PasswdD"
+                android:id="@+id/PassworddDelevery"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:passwordToggleEnabled="true">
@@ -90,7 +90,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/ConfPasswordD"
+                android:id="@+id/ConfPasswordDelevery"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:passwordToggleEnabled="true">
@@ -107,7 +107,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/phoneD"
+                android:id="@+id/phoneDelevery"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
@@ -122,7 +122,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
-                android:id="@+id/signupD"
+                android:id="@+id/signupDelevery"
                 android:layout_width="200dp"
                 android:layout_height="48dp"
                 android:layout_gravity="center"
@@ -168,7 +168,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/SignInD"
+                android:id="@+id/SignInDelevery"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -185,7 +185,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/EmailD"
+                    android:id="@+id/btnEmailDelevery"
                     android:layout_width="95dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="5dp"
@@ -201,7 +201,7 @@
                     tools:ignore="TextSizeCheck,TouchTargetSizeCheck" />
 
                 <Button
-                    android:id="@+id/PhoneD"
+                    android:id="@+id/btnPhoneDelevery"
                     android:layout_width="105dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"

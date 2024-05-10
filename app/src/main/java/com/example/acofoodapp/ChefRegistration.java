@@ -8,6 +8,7 @@ import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -122,6 +123,7 @@ public class ChefRegistration extends AppCompatActivity {
 
                                                                             dialog.dismiss();
 
+
                                                                         }
                                                                     });
                                                                     AlertDialog Alert = builder.create();
@@ -145,6 +147,15 @@ public class ChefRegistration extends AppCompatActivity {
 //
             }
         });
+
+        Emaill.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent( ChefRegistration. this, Cheflogin.class));
+                finish();
+            }
+        });
+
 
     }
 
