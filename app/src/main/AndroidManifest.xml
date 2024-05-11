@@ -11,8 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:targetApi="31">
-        <activity
+        tools:targetApi="31"
+
+
+        tools:overrideLibrary="com.google.firebase.storage">
+
+
+
+    <activity
             android:name=".ChefFoodPanel.chef_postDish"
             android:exported="false" />
         <activity

@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.acofoodapp"
-        minSdk = 19
+        minSdk = 23
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -37,15 +37,17 @@ dependencies {
 
     //noinspection GradleCompatible
     implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.11.0")
+    implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation("com.google.firebase:firebase-analytics:21.6.2")
-    implementation("com.google.firebase:firebase-auth:22.3.1")
-    implementation("com.google.firebase:firebase-database:20.3.1")
-    implementation("com.google.firebase:firebase-storage:20.3.0")
-    implementation("com.google.firebase:firebase-messaging:23.4.1")
+    implementation("com.google.firebase:firebase-analytics:22.0.0")
+    implementation("com.google.firebase:firebase-auth:23.0.0")
+    implementation("com.google.firebase:firebase-database:21.0.0")
+    implementation("com.google.firebase:firebase-storage:21.0.0")
+    implementation("com.google.firebase:firebase-messaging:24.0.0")
     implementation ("com.hbb20:ccp:2.5.3")
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+
+
 
 
 

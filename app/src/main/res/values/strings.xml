@@ -6,10 +6,7 @@
     <string name="description_upload_image">upload img</string>
 
 
-    <string-array name="State">
-        <item>Maharashtra</item>
-        <item>Gujarat</item>
-    </string-array>
+
 
     <string-array name="shipper">
         <item>Shipper 1</item>
